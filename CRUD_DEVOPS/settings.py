@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'CRUD_DEVOPS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Django_CRUD_Docker',
+        'NAME': 'CRUD',
         'USER': 'root',
-        'PASSWORD': 'Cgi@MySQL22',
-        'HOST': '127.0.0.1',  # or the hostname where your MySQL server is running
+        'PASSWORD': 'root',
+        'HOST': '10.107.94.34',  # or the hostname where your MySQL server is running
         'PORT': '3306',      # or the port on which your MySQL server is listening
     }
 }
